@@ -219,6 +219,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .btn {
@@ -301,6 +302,13 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.btn-ctn {
+  display: flex;
+  flex-direction: column;
 }
 
 .section-container {
@@ -325,6 +333,13 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+.experience-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
 }
 
 .experience-details-container {
